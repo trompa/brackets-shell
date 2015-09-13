@@ -24,6 +24,7 @@
 
 //these are defined in MainMainu.xib file
 @implementation FullScreenButton {
+#if 0
     NSImage *inactive;
     NSImage *active;
     NSImage *hover;
@@ -31,6 +32,7 @@
     BOOL activeState;
     BOOL hoverState;
     BOOL pressedState;
+#endif 
 }
 
 -(id)initWithCoder:(NSCoder *)aDecoder {
